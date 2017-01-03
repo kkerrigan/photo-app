@@ -14,6 +14,11 @@ gem 'devise-bootstrap-views'
 #stripe gem
 gem 'stripe'
 
+#image gems
+gem 'carrierwave' #image uploader
+gem 'mini_magick' #image resizer
+gem 'fog' #work with images in production
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
